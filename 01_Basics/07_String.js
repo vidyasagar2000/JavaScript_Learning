@@ -1,7 +1,7 @@
 const Name = "Vidya";
 const repoCount = 50;
 
-// console.log(name + repoCount + " Value");  Outdated Syntax
+// console.log(Name + repoCount + " Value");  Outdated Syntax
 
 // BackTicks = ``
 // String Interpolation

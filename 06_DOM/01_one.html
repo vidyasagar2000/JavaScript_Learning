@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <style>
+      .bg-black {
+        background-color: #212121;
+        color: white;
+      }
+    </style>
+  </head>
+  <body class="bg-black">
+    <div>
+      <h1 id="title" class="title">
+        DOM Learning on <span style="display: none">Nothing Baby</span>Chai aur
+        Code
+      </h1>
+      <p>Hi my name is Vidya Sagar</p>
+    </div>
+  </body>
+</html>
+
+<!--
+document.getElementById("title").setAttribute("heading") It will replace all attributes of class
+const title = document.getElementById("title")
+
+title.innerText  // DOM Learning on Chai aur Code
+title.innertextContent  // DOM Learning on Nothing Baby Chai aur Code
+title.innerHTML  // DOM Learning on <span style="display: none">Nothing Baby</span>Chai aur Code
+
+NodeList which we get using querySelectorAll seems like a array but it is not
+
+We get HTMLCollection when we use getElementsByClassName
+HTMLCollection is not same as NodeList
+HTMLCOllection is not a array but we can convert it in array using Array.from();
+ -->
+
